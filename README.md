@@ -72,6 +72,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Tap Room
 
+## Diagram
+
+![Screenshot of diagram](./screenshot.png)
+
+
 ### Description
   This web application allows users to add keg and beverage details to a list. Has the capabilities to edit, add, and delete drinks.
 
