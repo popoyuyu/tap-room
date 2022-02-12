@@ -68,3 +68,47 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Tap Room
+
+### Description
+  This web application allows users to add keg and beverage details to a list. Has the capabilities to edit, add, and delete drinks.
+
+## Technology Used
+  1. JavaScript
+  2. React.jx
+  3. JSX
+  
+## Setup
+  1. Using terminal download or clone from this repository `https://github.com/popoyuyu/tap-room.git`
+  2. Navigate into project directory: `cd tap-room`
+  3. Install Node.js: `npm install`
+  4. Run program and see live changes: `npm start run`
+  5. In your browser navigate to `http://localhost:3000`
+
+## Known Bugs
+  - No known bugs
+
+## License
+
+_Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:_
+
+_The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software._
+
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE._
+
+
+Copyright (c) _Feburary 11th 2022_ _Jeff Lai_
