@@ -11,6 +11,7 @@ function EditKegForm(props) {
       brand: event.target.brand.value,
       price: event.target.price.value,
       alcoholContent: event.target.alcoholContent.value,
+      alcoholQuantity: event.target.alcoholQuantity.value,
       id: keg.id
     })
   }

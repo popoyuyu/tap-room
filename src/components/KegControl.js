@@ -61,7 +61,14 @@ class KegControl extends React.Component {
       masterKegList: editedMasterKegList,
       editing: false,
       selectedKeg: null
-    })
+    });
+  }
+
+  handleSellPint = (id) => {
+    let selectedKeg = this.state.masterKegList.find(keg => keg.id === id);
+    selectedKeg.alcoholQuantity--;
+    const newMasterKegList = this.state.masterKegList.map((keg) => { return keg.id === id ? selectedKeg : keg });
+    this.setState({ masterKegList: newMasterKegList });
   }
 
 
@@ -95,17 +102,17 @@ class KegControl extends React.Component {
         <KegList
           kegList={this.state.masterKegList}
           onKegSelection={this.handleChangingSelectedKeg}
+          onClickBuy={this.handleSellPint}
         />
       );
       buttonText = "Add Keg";
     }
 
-
-
     return (
       <React.Fragment>
         {currentlyVisibleState}
         <button onClick={this.handleClick}>{buttonText}</button>
+
       </React.Fragment>
     )
   }
