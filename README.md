@@ -74,7 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Diagram
 
-![Screenshot of diagram](./screenshot.png)
+![Screenshot of diagram](./tap-room-diagram.png)
 
 
 ### Description
